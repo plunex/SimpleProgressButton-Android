@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleProgressButton">
+        <attr name="text_size" format="integer" />
+        <attr name="text_color" format="color" />
+
+        <attr name="progressbar_color" format="color"/>
+        <attr name="progressBar_height" format="integer" />
+        <attr name="progressBar_width" format="integer" />
+
+        <attr name="image_height" format="integer" />
+        <attr name="image_width" format="integer" />
+
+    </declare-styleable>
+</resources>
