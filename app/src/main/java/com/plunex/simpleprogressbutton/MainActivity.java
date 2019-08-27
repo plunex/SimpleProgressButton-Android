@@ -13,14 +13,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button mPassedBtn;
     private Button mRetryBtn;
 
-    private SimpleProgressButton simpleProgressButton;
+//    private SimpleProgressButton simpleProgressButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        simpleProgressButton = findViewById(R.id.simpleProgressButton);
+//        simpleProgressButton = findViewById(R.id.simpleProgressButton);
 
         mNormalBtn = findViewById(R.id.button);
         mLoadingBtn = findViewById(R.id.button1);
@@ -40,18 +40,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (x) {
             case R.id.button:
 
-                simpleProgressButton.showDefault();
+//                simpleProgressButton.showDefault();
                 break;
             case R.id.button1:
-                simpleProgressButton.showDefaultProgress("Posting");
+//                simpleProgressButton.showDefaultProgress("Posting");
 
                 break;
             case R.id.button2:
-                simpleProgressButton.showCustomMessage("Posted", R.drawable.ic_checked);
+//                simpleProgressButton.showCustomMessage("Posted", R.drawable.ic_checked);
                 break;
 
             case R.id.button3:
-                simpleProgressButton.showCustomMessage("Retry", 0);
+//                simpleProgressButton.showCustomMessage("Retry", 0);
                 break;
 
             default:
